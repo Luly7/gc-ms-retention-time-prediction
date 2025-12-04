@@ -64,7 +64,8 @@ def test():
     """
     inputs = {
         "topic": "AI LLMs",
-        "current_year": str(datetime.now().year)
+        "current_year": str(datetime.now().year),
+        'module_name': 'latest_rt'
     }
 
     try:
@@ -93,7 +94,8 @@ def run_with_trigger():
     inputs = {
         "crewai_trigger_payload": trigger_payload,
         "topic": "",
-        "current_year": ""
+        "current_year": "",
+        "module_name": "latest_rt"
     }
 
     try:
