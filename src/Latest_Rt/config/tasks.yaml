@@ -1,0 +1,34 @@
+extract_literature_rt:
+  description: >
+    Use batch_extract_literature_rt tool with num_compounds=20.
+    Extract RT data, column specs, and literature sources.
+  expected_output: >
+    Brief summary (max 300 words):
+    - Total compounds processed
+    - RT range and confidence
+  agent: literature_agent
+  output_file: output/{module_name}_literature_extraction.md
+
+predict_retention_time:
+  description: >
+    Use batch_predict_retention_times with num_compounds=20 and column_conditions="1,2,3,4,5".
+    Generate predictions for 5 column configurations.
+  expected_output: >
+    Brief summary (max 300 words):
+    - Total predictions
+    - Average confidence
+  agent: prediction_agent
+  output_file: output/{module_name}_predictions.md
+
+
+compare_rt_values:
+  description: >
+    Use batch_compare_rt_values with data from previous tasks.
+    Then use generate_summary_report.
+  expected_output: >
+    Brief validation report (max 400 words):
+    - Mean error
+    - Agreement distribution
+    - Top 3 best predictions
+  agent: validation_agent
+  output_file: output/{module_name}_validation_report.md

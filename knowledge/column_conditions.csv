@@ -1,0 +1,22 @@
+column_id,column_name,column_type,stationary_phase,length_m,diameter_mm,film_thickness_um,temperature_program,carrier_gas,flow_rate_ml_min,manufacturer
+1,Agilent DB-5,DB-5,5% Phenyl 95% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Agilent
+2,Agilent DB-5,DB-5,5% Phenyl 95% Dimethylpolysiloxane,30,0.25,0.25,60-300C at 15C/min,Helium,1.2,Agilent
+3,Agilent DB-5,DB-5,5% Phenyl 95% Dimethylpolysiloxane,30,0.25,0.50,50-280C at 8C/min,Helium,1.0,Agilent
+4,Agilent HP-5MS,HP-5MS,5% Phenyl 95% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Agilent
+5,Agilent HP-5MS,HP-5MS,5% Phenyl 95% Dimethylpolysiloxane,30,0.25,0.25,40-300C at 12C/min,Helium,1.0,Agilent
+6,Restek Rtx-5,Rtx-5,5% Diphenyl 95% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Restek
+7,Phenomenex ZB-5,ZB-5,5% Phenyl 95% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Phenomenex
+8,Agilent DB-1,DB-1,100% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Agilent
+9,Agilent DB-1,DB-1,100% Dimethylpolysiloxane,30,0.25,1.00,50-300C at 15C/min,Helium,1.2,Agilent
+10,Agilent DB-WAX,DB-WAX,Polyethylene Glycol,30,0.25,0.25,60-250C at 10C/min,Helium,1.0,Agilent
+11,Agilent DB-WAX,DB-WAX,Polyethylene Glycol,30,0.25,0.50,40-240C at 8C/min,Helium,1.0,Agilent
+12,Supelco SPB-1,SPB-1,100% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Supelco
+13,Restek Rtx-1,Rtx-1,100% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Restek
+14,Agilent DB-35,DB-35,35% Phenyl 65% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Agilent
+15,Agilent DB-17,DB-17,50% Phenyl 50% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Agilent
+16,Restek Rtx-35,Rtx-35,35% Diphenyl 65% Dimethylpolysiloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,Restek
+17,Agilent DB-624,DB-624,6% Cyanopropylphenyl 94% Dimethylpolysiloxane,30,0.25,1.40,40-250C at 10C/min,Nitrogen,1.0,Agilent
+18,Restek Rtx-624,Rtx-624,6% Cyanopropylphenyl 94% Dimethylpolysiloxane,30,0.25,1.40,40-250C at 10C/min,Nitrogen,1.0,Restek
+19,Agilent DB-VRX,DB-VRX,20% Phenyl 80% Dimethylpolysiloxane,20,0.18,1.00,40-260C at 15C/min,Helium,1.5,Agilent
+20,SGE BPX5,BPX5,5% Phenyl Polysilphenylene-siloxane,30,0.25,0.25,60-280C at 10C/min,Helium,1.0,SGE
+
